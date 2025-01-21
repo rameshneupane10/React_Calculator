@@ -1,0 +1,65 @@
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(223, 186, 238);
+
+}
+
+.container h1 {
+  color:rgb(60, 0, 255);
+  height: 60px;
+  width: auto;
+  border-radius: 30px;
+  align-items: center;
+  background-color: rgb(176, 124,  226);
+ font-size: auto;
+ border: none;
+ margin: 20px;
+ border-radius: 20px;
+}
+
+.calculator{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: wheat;
+}
+
+form input{
+  border:none;
+  outline: 0;
+  width: 60px;
+  height: 65px;
+  font-size: 16px;
+  background-color: rgb(175, 90, 90);
+  margin: 2px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+form input[type="button"]:hover{
+  background-color: greenyellow;
+}
+
+form .display{
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0px 15px 0px;
+}
+
+form .display input{
+  text-align: right;
+  flex:1;
+  font-size: 40px;
+  padding: 5px 10px;
+  background-color: rgb(174, 114, 230);
+}
+
+form input.lowBut{
+  width: 125px;
+}
+
